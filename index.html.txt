@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
             </div>
         </div>
     </header>
-    <section id="introducao">
+    <div id="introducao">
         <div class="container imagem">
             <figure class="img">
                 <img src="../AlbertEinstein/imagens/Albert_EinsteinJovem.jpg.png" alt="foto após seu nobel pelo efeito foto eletrico">
@@ -36,7 +36,7 @@
 
 
 
-    </section>
+    </div>
     <section class="container-section">
         <div class="title">
             <h1>Quem foi Einstein</h1>
@@ -104,7 +104,7 @@
         </div>
 
     </section>
-    <article class="section-imagem">
+    <div class="section-imagem">
         <div class="container-grid">
             <div>
                 <img src="./imagens/charuto.jpg.jpg" alt="fumando seu charuto">
@@ -144,7 +144,7 @@
             </div>
         </aside>
 
-    </article>
+    </div>
 
 </body>
 
