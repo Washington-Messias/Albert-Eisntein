@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./normalize/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <title>Albert Einstein</title>
+</head>
+
+<body id="corpo">
+
+    <header id="cabecalho">
+        <div>
+            <img src="../AlbertEinstein/imagens/img-de-fundo.webp" alt="Albert Einstein">
+            <div id="comentario">
+                <blockquote cite="https://www.pensador.com/frases_de_albert_einstein/">
+                    <p class="frase">"Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, ainda não tenho certeza absoluta."</p>
+                    <p class="legendaNome">-Albert Einstein</p>
+                </blockquote>
+            </div>
+        </div>
+    </header>
+    <section id="introducao">
+        <div class="container imagem">
+            <figure class="img">
+                <img src="../AlbertEinstein/imagens/Albert_EinsteinJovem.jpg.png" alt="foto após seu nobel pelo efeito foto eletrico">
+            </figure>
+            <div class="paragrafo-legend">
+                <p>Albert Einstein (1879-1955)</p>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="container-section">
+        <div class="title">
+            <h1>Quem foi Einstein</h1>
+
+        </div>
+        <div class="paragrafo">
+            <p> Albert Einstein (1879-1955) foi um físico e matemático alemão. Entrou para o rol dos maiores gênios da humanidade ao desenvolver a Teoria da Relatividade.</p>
+
+            <p>Estabeleceu a relação entre massa e energia e formulou a equação que se tornou a mais famosa do mundo: <b><a href="https://www.significados.com.br/teoria-da-relatividade/">E = mc².</a></b> Recebeu o Prêmio Nobel de Física, por suas descobertas
+                sobre a lei dos efeitos fotoelétricos.</p>
+
+            <h2 class="title-infancia">Infância e Formação</h2>
+            <p>Albert Einstein nasceu em <b><a href="https://www.hotcourses.com.br/study/germany/school-college-university/ulm-university/417652/international.html" target="_blank">Ulm</a></b>, na Alemanha, no dia 14 de março de 1879. Filho de um pequeno
+                industrial judeu, em 1880 mudou-se com a família para a cidade de Munique.</p>
+
+            <p>Com seis anos de idade, incentivado pela mãe, começou a estudar violino. Logo cedo se destacou no estudo da física, matemática e filosofia. Depois do ensino secundário em Ulm, ingressou no Instituto Politécnico de Zurique, na Suíça, onde em
+                1900 concluiu a graduação em Física.</p>
+
+            <p>Em 1901 escreveu seu primeiro artigo científico "A Investigação do Estado do <b><a href="https://mundoeducacao.uol.com.br/fisica/o-enigma-eter.htm" target="_blank">Éter</a></b> em Campo Magnético". Em fevereiro deste mesmo ano recebeu a cidadania
+                suíça. Aceitou um lugar no departamento de patentes em Berna. Em 6 de janeiro de 1903 casou-se com Mileva Maric, com quem teve três filhos.</p>
+        </div>
+    </section>
+
+    <section class="container-section">
+        <div class="title">
+            <h1>Contribuições cientificas</h1>
+        </div>
+        <div class="paragrafo">
+            <p>Em um desses trabalhos, Einstein sugeriu que a luz poderia ser concebida como uma corrente formada de partículas ínfimas, às quais deu o nome de quanta. Essa idéia passou a constituir uma parte importante da teoria quântica. Antes de Einstein,
+                cientistas já tinham descoberto que um feixe luminoso brilhante, incidindo sobre um metal, levava-o a emitir elétrons, que poderiam transformar-se numa corrente elétrica. Mas os cientistas não podiam explicar o fenômeno, a que tinham dado
+                o nome de efeito fotelétrico. Einstein, entretanto, explicou esse efeito, baseando-se na sua teoria quântica. Mostrou que, quando os quanta de energia luminosa atingem átomos de um metal, forçam-no a desprender elétrons.</p><br>
+
+            <p>A obra de Einstein ajudou a comprovar a teoria quântica. Ao mesmo tempo, deu ao efeito fotoelétrico uma explicação impossível de conceber, enquanto os cientistas continuassem a afirmar que a luz se propagava exclusivamente através de ondas.
+                A célula fotoelétrica ou olho eletrônico que é uma decorrência do trabalho de Einstein tornou possíveis o cinema sonoro, a televisão e muitos outros inventos. Por seu trabalho sobre os quanta, Einstein recebeu o prêmio Nobel de física
+                de 1921.
+            </p><br>
+            <p>Num segundo trabalho, intitulado A Eletrodinâmica dos Corpos em Movimento, Einstein apresentou a teoria da <b><a href="https://www.pucsp.br/pos/cesima/schenberg/alunos/fernandacardoso/Relatividade/Teoria%20da%20Relatividade%20Restrita.htm#:~:text=A%20Teoria%20da%20Relatividade%20Restrita%20%C3%A9%20baseada%20em%20dois%20postulados,sem%20olhar%20l%C3%A1%20para%20fora."
+                    target="_blank">relatividade restrita.</a></b> Em virtude dessa teoria, que mostra a relatividade do tempo - idéia jamais concebida antes - o nome de Einstein passou a ser amplamente conhecido. Em 1944, uma cópia do famoso manuscrito
+                de Einstein sobre a eletrodinâmica serviu de base para um investimento de seis milhões e 500 mil dólares em bônus de guerra, num leilão realizado na cidade de Kansas, E.U.A. O trabalho foi mais tarde enviado para a Biblioteca do Congresso
+                em Washington. Em outro estudo, publicado em 1905, Einstein demonstrou a equivalência entre massa e energia, expressa em sua famosa equação E = mc².</p><br>
+
+            <p>O terceiro importante trabalho de Einstein, em 1905, dizia respeito ao <b><a href="https://www.infoescola.com/fisica/movimento-browniano/" target="_blank">movimento browniano</a></b>, um movimento em ziguezague de partículas microscópicas
+                suspensas num líquido ou gás. Esse movimento confirmava a teoria atômica da matéria.</p><br>
+
+            <p>Einstein apresentou esses trabalhos antes de assumir posto acadêmico. Mas, em 1909, foi nomeado professor de física teórica da <b><a href="https://www.uzh.ch/en.html" target="_blank">Universidade de Zurique</a></b>, na Suíça. Em 1911 e 1912,
+                ocupou posto equivalente na Universidade Alemã de Praga, no antigo Império Austro-Húngaro. Função semelhante passou a desempenhar, em 1912, no Instituto Federal de Tecnologia de Zurique, Suíça.</p><br>
+
+            <p>Em 1913, Einstein era eleito membro da <b><a href="https://stringfixer.com/pt/Prussian_Academy_of_Science" target="_blank">Academia Prussiana de Ciências</a></b>, sediada em Berlim. Um ano depois, ao aceitar o posto de professor de física
+                na Universidade de Berlim, readquiriu a cidadania alemã. No mesmo ano, foi nomeado diretor do Instituto de Física Kaiser Guilherme, também na capital alemã, postos que ocupou até 1933.</p><br>
+
+            <p>Em 1915, Einstein anunciava ter desenvolvido a teoria da relatividade generalizada, baseada na sua teoria sobre a relatividade restrita. Em sua teoria generalizada, tentou expressar todas as leis da física através de equações covariantes,
+                ou seja, equações que têm a mesma forma matemática, qualquer que seja o sistema de referência a que são aplicadas. A teoria geral, anunciada em 1915, veio a público em 1916.</p><br>
+
+            <p>A <b><a href="https://pt.wikipedia.org/wiki/Teoria_do_campo_unificado#:~:text=Em%20f%C3%ADsica%2C%20uma%20teoria%20do,um%20campo%20aberto%20para%20pesquisa." target="_blank">Teoria Unitária do Campo</a></b>. Einstein não se sentiu inteiramente
+                satisfeito com a teoria da relatividade generalizada, pois ela não incluía o eletromagnetismo. Ao aproximar-se o fim da década de 1920, tentou incorporar numa só teoria tanto os fenômenos eletromagnéticos como os gravitacionais, teoria
+                denominada teoria unitária do campo. Mas não conseguiu dar forma a uma teoria unitária do campo, embora tenha despendido 25 anos de sua vida tentando elaborá-la. Sentindo aproximar-se o fim de sua vida, Einstein assinalou a conveniência
+                de deixar claro que tal teoria não existia. Preocupava-o a idéia de que, não tendo desenvolvido uma teoria nem mostrado a impossibilidade de sua existência, talvez ninguém jamais o fizesse.</p><br>
+
+            <p>Einstein casou-se duas vezes. Separou-se da primeira mulher logo após sua chegada a Berlim. Durante a Primeira Guerra Mundial, desposou sua prima-irmã, Elsa, que veio a morrer em Princeton em 1936, depois de compartilhar com ele, fielmente,
+                sua vida. De seu primeiro casamento, teve dois filhos; com o segundo, ganhou duas enteadas.
+            </p><br>
+
+            <p>Einstein era, por natureza, profundamente religioso. Entretanto, jamais se ligou a qualquer religião ortodoxa. Embora achando a crença num deus pessoal um conceito demasiadamente específico para ser aplicável ao Ser em ação neste mundo, Einstein
+                jamais admitiu um universo caracterizado pelo acaso e pelo caos. No universo, pensava ele, deveriam reinar a lei e a ordem absolutas. Certa vez afirmou: "Deus pode ser muito sofisticado, mas não é malicioso."</p>
+        </div>
+
+    </section>
+    <article class="section-imagem">
+        <div class="container-grid">
+            <div>
+                <img src="./imagens/charuto.jpg.jpg" alt="fumando seu charuto">
+            </div>
+            <div>
+                <img src="./imagens/ilustrativo.jpg.jpg" alt=" ilustração de Einstein">
+            </div>
+            <div>
+                <img src="./imagens/satelite-em-volta-da-terra.jpg" alt="como um satélite fica em torno da terra">
+            </div>
+            <div>
+                <img src="./imagens/lingua-de-fora.jpg.webp" alt="uma das fotos mais famosas de Einstein">
+            </div>
+            <div>
+                <img src="./imagens/fundo2.jpg" alt="famosa formula do E=m.c^2"></div>
+            <div>
+                <img src="./imagens/mercado-de-zurique-teoria-32-einstein-relatividade-mc2-tempo-física-vídeo-clip-de-stock_csp60918079.webp" alt="relogio relativo">
+            </div>
+        </div>
+        <aside class="curiosidades ">
+            <div class="container-curiosidade-title ">
+                <h3>Curiosidades</h3>
+            </div>
+            <div class="curiosidade-paragrafo ">
+                <h4>Einstein já visitou o Brasil</h4>
+                <p>Einstein já visitou o Brasil! Foi ao Rio de Janeiro em 1925 para fazer conferências e observar um cometa que justificaria sua teoria de gravitação. Aproveitou o passeio para conhecer os principais pontos turísticos da cidade, como o Pão
+                    de Açúcar e o Corcovado.</p><br>
+                <h4>Idade de Einstein nas suas maiores publicações</h4>
+                <p>Einstein tinha apenas 26 anos quando publicou, em 1905, seus quatro artigos científicos que mudariam o mundo.</p>
+                <h4>Professores não achavam ele um gênio</h4>
+                <p>
+                    Einstein não era visto pelos professores como um gênio. Quando tinha 16 anos, tentou ingressar na faculdade, Escola Politécnica de Zurique, mas foi reprovado, principalmente nas áreas de língua, botânica e zoologia.
+                </p>
+                <h4>Einstein ganhou um Nobel e não foi pela teoria da relatividade</h4>
+                <p>Einstein ganhou um nobel. Este pelo feito do artigo descrevendo a teoria do fotoeletrico que foi muito importante e é até hoje.</p>
+
+            </div>
+        </aside>
+
+    </article>
+
+</body>
+
+</html>

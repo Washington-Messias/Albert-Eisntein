@@ -1,0 +1,227 @@
+:root {
+    --color-transparente: rgba(0, 0, 0, 0.8);
+    --color-LemonChiffon: #FFFACD;
+    --color-white: #f7f7f7;
+    --color-black: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: var(--color-black);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    background: lime;
+    transition: 450ms all ease-in-out;
+}
+
+html {
+    width: 98.5%;
+    margin: 5px;
+    background: var(--color-transparente);
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 99%;
+    margin: 10px;
+    background: var(--color-LemonChiffon);
+}
+
+#cabecalho {
+    background: var(--color-LemonChiffon);
+}
+
+#cabecalho img {
+    height: 750px;
+    width: 100%;
+    background-image: no-repeat;
+}
+
+#introducao {
+    height: 350px;
+    width: 100%;
+    background: var(--color-LemonChiffon);
+}
+
+.container,
+.imagem {
+    float: left;
+}
+
+.container,
+.imagem img {
+    position: relative;
+    border-radius: 155px;
+    height: 280px;
+    margin-top: 7px;
+    left: 230px;
+    position: relative;
+}
+
+.imagem img {
+    transition: transform 1s;
+}
+
+.imagem img:hover {
+    transform: rotate(360deg) translate(0);
+}
+
+div.paragrafo-legend {
+    position: relative;
+    font-size: 17px;
+    color: var(--color-black);
+    margin-top: 7px;
+    width: 120px;
+    left: 285px;
+    display: inline-flex;
+}
+
+#comentario {
+    position: absolute;
+    float: right;
+    color: var(--color-white);
+    width: 475px;
+    font-size: 26px;
+    top: 330px;
+    right: 45px;
+    animation-name: comentario;
+    animation-duration: 1420ms;
+    animation-iteration-count: 1;
+}
+
+#comentario .frase {
+    color: var(--color-white);
+    animation-name: frase;
+    animation-duration: 1420ms;
+    animation-iteration-count: 1;
+}
+
+#comentario .legendaNome {
+    position: relative;
+    color: var(--color-white);
+    left: 300px;
+    animation-name: legenda;
+    animation-duration: 1420ms;
+    animation-iteration-count: 1;
+}
+
+.container-section {
+    margin-top: 50px;
+    background: var(--color-LemonChiffon);
+}
+
+.title h1 {
+    color: var(--color-black);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-infancia {
+    position: relative;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.paragrafo p {
+    font-size: 17px;
+    margin: 7px 20px;
+    text-align: justify;
+}
+
+div .ilustrativo {
+    position: relative;
+    float: right;
+    margin: 3px;
+    top: 0;
+    bottom: 80px;
+}
+
+.section-imagem {
+    background: var(--color-LemonChiffon);
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 15px;
+    float: left;
+}
+
+.container-grid div {
+    background: #000;
+    border-radius: 65px 65px 20px 20px;
+    height: 210px;
+    margin-top: 18px;
+}
+
+.container-grid div img {
+    background-image: cover;
+    width: 250px;
+    height: 210px;
+    border-radius: 65px 65px 20px 20px;
+}
+
+.curiosidades {
+    background: var(--color-LemonChiffon);
+    width: 310px;
+    position: relative;
+    float: right;
+    margin-left: 10px;
+    border: 1px black solid;
+}
+
+.container-curiosidade-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.curiosidades h4 {
+    position: relative;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.container-paragrafo {
+    position: relative;
+}
+
+@keyframes comentario {
+    from {
+        right: 0;
+    }
+    to {
+        right: 45px;
+    }
+}
+
+@keyframes frase {
+    from {
+        color: rgba(0, 0, 0, 0.1);
+    }
+    to {
+        color: var(--color-white);
+    }
+}
+
+@keyframes legenda {
+    from {
+        color: rgba(0, 0, 0, 0.1);
+    }
+    to {
+        color: var(--color-white);
+    }
+}
